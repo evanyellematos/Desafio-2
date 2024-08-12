@@ -1,0 +1,45 @@
+.cabecalho{
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--branco);
+
+}
+.cabecalho__{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--preto);
+   
+}
+.cabecalho__imagem{
+    display: flex;
+    gap: 1em;
+}
+.introducao{
+    display: flex;
+    margin: 2em 1em;
+   
+}
+.introducao__{
+    padding: 1em;
+    background-color: var(--cor);
+    
+}
+.introducao__titulo{
+    font-size: 22px;
+    padding: 2em 0;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
+.introducao__paragrafo{
+    font-size: 14px;
+    padding: 0.5em 0;
+    font-weight: 400;
+    color: var(--cinza);
+}
+
+.introducao__palavra{
+    margin: 0.5em 1em;
+    font-weight: 700;
+    color: var(--cinza-escuro);
+}
